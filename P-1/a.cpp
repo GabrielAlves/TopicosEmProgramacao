@@ -28,9 +28,9 @@ int main() {
             i++;
         }
 
-        if (apartamentos[j] < desejados[i] + k) j++;
+        if (apartamentos[j] < desejados[i] - k) j++;
 
-        if (apartamentos[j] > desejados[i] - k) i++;
+        if (apartamentos[j] > desejados[i] + k) i++;
     }
 
     cout << resultado << endl;
